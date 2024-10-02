@@ -10,16 +10,13 @@ html{
 .messaggio{
     display: none;
 }
-.pagina{
-    padding: 0 10px;
-}
 .logo{
     margin-top: 50px;
     text-align: center;
 }
 .testi{
     text-align: center;
-    padding: 20px;
+    padding: 0 50px;
 }
 .titolo{
     font-size: 24px;
