@@ -1,5 +1,8 @@
 var back = document.querySelector('.back');
 var cardine = document.querySelectorAll('.card');
+var pop = document.querySelector('.popup');
+var chiudi = document.querySelector('.chiudi');
+
 console.log(cardine);
 document.querySelectorAll('.card').forEach(item => {
   item.addEventListener('click', function(e) {
@@ -30,3 +33,27 @@ back.addEventListener('click', function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });
+
+chiudi.addEventListener('click', function(){
+pop.classList.add('nascosto');
+});
+
+/* Funzione popup */
+document.addEventListener('DOMContentLoaded', function() {
+  if(pop.classList.contains('nascosto')){
+    enableScrolling();
+  } else {
+    disableScrolling();
+  }
+});
+
+/* Scroll */
+function disableScrolling(){
+  var x=window.scrollX;
+  var y=window.scrollY;
+  window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+  window.onscroll=function(){};
+}
