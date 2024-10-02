@@ -34,18 +34,17 @@ back.addEventListener('click', function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });
 
-chiudi.addEventListener('click', function(){
-pop.classList.add('nascosto');
+/* Funzione popup */
+document.addEventListener('DOMContentLoaded', function(){
+disableScrolling();
 });
 
-/* Funzione popup */
-document.addEventListener('DOMContentLoaded', function() {
-  if(pop.classList.contains('nascosto')){
-    enableScrolling();
-  } else {
-    disableScrolling();
-  }
+chiudi.addEventListener('click', function(){
+pop.classList.add('nascosto');
+enableScrolling();
 });
+
+
 
 /* Scroll */
 function disableScrolling(){
