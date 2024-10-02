@@ -7,6 +7,13 @@ body{
 html{
     font-family: "Poppins", sans-serif;
 }
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .messaggio{
     display: none;
 }
@@ -199,4 +206,47 @@ html{
     100%{
         transform: scale(1);
     }
+}
+.alert{
+    background-color: #ececec;
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+    z-index: 99;
+}
+.popup{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.chiudi{
+    position: absolute; 
+    top: 10px;
+    right: 20px;
+    background-color: #257A57;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2;
+}
+.nascosto{
+    display: none;
 }
