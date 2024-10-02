@@ -10,6 +10,9 @@ html{
 .messaggio{
     display: none;
 }
+.pagina{
+    padding: 0 20px;
+}
 .logo{
     margin-top: 50px;
     text-align: center;
