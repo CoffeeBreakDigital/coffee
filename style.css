@@ -57,6 +57,7 @@ html{
     text-align: center;
     transition: 0.5s;
     max-height: 40px;
+    height: 40px;
 }
 .pulsanteVerde:hover{
     background: #267252;
