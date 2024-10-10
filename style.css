@@ -257,7 +257,7 @@ html{
     border-radius: 50px;
     position: fixed;
     bottom: 50px;
-    left: 20px;
+    right: 20px;
     text-align: center;
     z-index: 999 !important;
     display: flex;
@@ -313,7 +313,7 @@ html{
     margin: 0px;
     padding: 0px 10px 5px 10px;
     line-height: 5px;
-    width: fit-content;
+    width: 150px;
     color: #fff;
     position: fixed;
     left: 80px;
