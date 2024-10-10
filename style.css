@@ -321,6 +321,10 @@ html{
     max-height: 30px;
     animation: fadeIn 2s ease;
 }
+.tooltip p{
+font-size: 14px;
+line-height: 26px;
+}
 .contenitoreWa{
     width: 60%;
     border-radius: 30px;
