@@ -72,13 +72,6 @@ tooltip.classList.add('nascosto');
 whatsapp.addEventListener('mouseover', function(){
   tooltip.classList.toggle('nascosto');
   });
-// iconaClose.addEventListener('click', function(){
-// whatsapp.classList.toggle ('animato');
-// tooltip.classList.remove('nascosto');
-// });
-// pulsante.addEventListener('click', function(){
-// pulsante.href = "https://wa.me/393382359926/?text=Salve! Sarei interessato a ricevere maggiori informazioni.😁";
-// });
 setTimeout(() => {
     tooltip.classList.remove('nascosto');
 },
