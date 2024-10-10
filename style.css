@@ -15,8 +15,9 @@ html{
     text-align: center;
 }
 .rosso{
-color: #ff4949;
+color: #257A57;
 font-weight: 700;
+text-decoration: underline;
 }
 .messaggio{
     display: none;
