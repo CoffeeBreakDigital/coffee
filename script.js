@@ -35,23 +35,23 @@ back.addEventListener('click', function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });
 
-/* Funzione popup */
-/* document.addEventListener('DOMContentLoaded', function(){ */
+/* Funzione popup 
+/* document.addEventListener('DOMContentLoaded', function(){ 
   paypal.addEventListener('click', function(){
     pop.classList.remove('nascosto');
  
 disableScrolling();
      });
-/* }); */
+/* }); 
 
 chiudi.addEventListener('click', function(){
 pop.classList.remove('nascosto');
 enableScrolling();
-});
+});*/
 
 
 
-/* Scroll */
+/* Scroll 
 function disableScrolling(){
   var x=window.scrollX;
   var y=window.scrollY;
@@ -61,6 +61,7 @@ function disableScrolling(){
 function enableScrolling(){
   window.onscroll=function(){};
 }
+*/
 let whatsapp = document.getElementById('wa');
 let pop = document.getElementById('popup');
 let close = document.getElementById('iconaClose');
