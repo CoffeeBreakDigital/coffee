@@ -56,3 +56,34 @@ function disableScrolling(){
 function enableScrolling(){
   window.onscroll=function(){};
 }
+let whatsapp = document.getElementById('wa');
+let pop = document.getElementById('popup');
+let close = document.getElementById('iconaClose');
+let pulsante = document.getElementById('bottone');
+let tooltip = document.getElementById('tool');
+let notifica = document.getElementById('notification');
+let mail = document.getElementById('secondaria');
+let linkedin = document.getElementById('secondaria1');
+
+whatsapp.addEventListener('click', function(){
+whatsapp.classList.toggle ('animato');
+tooltip.classList.add('nascosto');
+});
+whatsapp.addEventListener('mouseover', function(){
+  tooltip.classList.toggle('nascosto');
+  });
+// iconaClose.addEventListener('click', function(){
+// whatsapp.classList.toggle ('animato');
+// tooltip.classList.remove('nascosto');
+// });
+// pulsante.addEventListener('click', function(){
+// pulsante.href = "https://wa.me/393382359926/?text=Salve! Sarei interessato a ricevere maggiori informazioni.😁";
+// });
+setTimeout(() => {
+    tooltip.classList.remove('nascosto');
+},
+3000);
+setTimeout(() => {
+    tooltip.classList.add('nascosto');
+},
+8000);
