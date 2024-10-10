@@ -2,6 +2,7 @@ var back = document.querySelector('.back');
 var cardine = document.querySelectorAll('.card');
 var pop = document.querySelector('.popup');
 var chiudi = document.querySelector('.chiudi');
+var paypal = document.querySelector('.pulsantePP');
 
 console.log(cardine);
 document.querySelectorAll('.card').forEach(item => {
@@ -36,11 +37,14 @@ back.addEventListener('click', function topFunction() {
 
 /* Funzione popup */
 document.addEventListener('DOMContentLoaded', function(){
+  paypal.addEventListener('click', function(){
+    pop.classList.remove('nascosto');
+  }
 disableScrolling();
 });
 
 chiudi.addEventListener('click', function(){
-pop.classList.add('nascosto');
+pop.classList.remove('nascosto');
 enableScrolling();
 });
 
