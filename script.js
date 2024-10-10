@@ -36,12 +36,13 @@ back.addEventListener('click', function topFunction() {
 });
 
 /* Funzione popup */
-document.addEventListener('DOMContentLoaded', function(){
+/* document.addEventListener('DOMContentLoaded', function(){ */
   paypal.addEventListener('click', function(){
     pop.classList.remove('nascosto');
-  }
+ 
 disableScrolling();
-});
+     });
+/* }); */
 
 chiudi.addEventListener('click', function(){
 pop.classList.remove('nascosto');
