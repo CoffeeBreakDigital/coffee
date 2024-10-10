@@ -1,6 +1,5 @@
 var back = document.querySelector('.back');
 var cardine = document.querySelectorAll('.card');
-var pop = document.querySelector('.popup');
 var chiudi = document.querySelector('.chiudi');
 var paypal = document.querySelector('.pulsantePP');
 
