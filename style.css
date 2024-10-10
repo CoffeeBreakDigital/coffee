@@ -313,11 +313,11 @@ html{
     margin: 0px;
     padding: 0px 10px 5px 10px;
     line-height: 5px;
-    width: 100px;
+    width: 150px;
     color: #fff;
     position: fixed;
-    right: 80px;
-    bottom: 60px;
+    right: 10px;
+    bottom: 80px;
     animation: fadeIn 2s ease;
 }
 .tooltip p{
