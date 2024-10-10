@@ -14,6 +14,10 @@ html{
     justify-content: center;
     text-align: center;
 }
+.rosso{
+color: red;
+font-weight: 700;
+}
 .messaggio{
     display: none;
 }
